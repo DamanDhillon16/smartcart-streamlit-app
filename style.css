@@ -34,21 +34,29 @@
     color: #5b2a86;
 }
 
-div.stButton > button {
+div.stButton > button,
+div.stFormSubmitButton > button,
+.stForm button,
+button[kind="primaryFormSubmit"],
+button[kind="secondaryFormSubmit"] {
     width: 100%;
-    background-color: #5b2a86;
-    color: white;
+    background-color: #5b2a86 !important;
+    color: white !important;
     font-weight: 600;
     padding: 0.6rem 0;
     border-radius: 8px;
-    border: none;
+    border: none !important;
     font-size: 1.05rem;
     transition: background-color 0.2s ease;
 }
 
-div.stButton > button:hover {
-    background-color: #7b3fae;
-    color: white;
+div.stButton > button:hover,
+div.stFormSubmitButton > button:hover,
+.stForm button:hover,
+button[kind="primaryFormSubmit"]:hover,
+button[kind="secondaryFormSubmit"]:hover {
+    background-color: #7b3fae !important;
+    color: white !important;
 }
 
 .sc-result {
