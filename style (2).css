@@ -1,0 +1,89 @@
+/* ===== SmartCart custom styling ===== */
+
+.main {
+    padding-top: 1rem;
+}
+
+.sc-header {
+    text-align: center;
+    padding: 1.5rem 1rem 1rem 1rem;
+}
+
+.sc-header h1 {
+    font-size: 2.4rem;
+    margin-bottom: 0.2rem;
+    color: #5b2a86;
+}
+
+.sc-header p {
+    color: #5a6b7b;
+    font-size: 1.05rem;
+    margin-top: 0;
+}
+
+.sc-card {
+    background-color: #f8f6fb;
+    border: 1px solid #e6dff0;
+    border-radius: 12px;
+    padding: 1.2rem 1.4rem;
+    margin-bottom: 1rem;
+}
+
+.sc-card h3 {
+    margin-top: 0;
+    color: #5b2a86;
+}
+
+div.stButton > button {
+    width: 100%;
+    background-color: #5b2a86;
+    color: white;
+    font-weight: 600;
+    padding: 0.6rem 0;
+    border-radius: 8px;
+    border: none;
+    font-size: 1.05rem;
+    transition: background-color 0.2s ease;
+}
+
+div.stButton > button:hover {
+    background-color: #7b3fae;
+    color: white;
+}
+
+.sc-result {
+    background-color: #f1ecf9;
+    border: 1px solid #a97fd6;
+    border-radius: 12px;
+    padding: 1.4rem;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.sc-result h2 {
+    color: #5b2a86;
+    margin-bottom: 0.3rem;
+}
+
+.sc-result p {
+    color: #444;
+    font-size: 0.95rem;
+}
+
+.sc-badge {
+    display: inline-block;
+    background-color: #5b2a86;
+    color: white;
+    padding: 0.25rem 0.8rem;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    margin-top: 0.4rem;
+}
+
+.sc-footer {
+    text-align: center;
+    color: #9aa5b1;
+    font-size: 0.85rem;
+    margin-top: 2rem;
+}
