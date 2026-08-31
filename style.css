@@ -34,9 +34,7 @@
     color: #5b2a86;
 }
 
-div.stButton > button,
 div.stFormSubmitButton > button,
-.stForm button,
 button[kind="primaryFormSubmit"],
 button[kind="secondaryFormSubmit"] {
     width: 100%;
@@ -50,11 +48,26 @@ button[kind="secondaryFormSubmit"] {
     transition: background-color 0.2s ease;
 }
 
-div.stButton > button:hover,
 div.stFormSubmitButton > button:hover,
-.stForm button:hover,
 button[kind="primaryFormSubmit"]:hover,
 button[kind="secondaryFormSubmit"]:hover {
+    background-color: #7b3fae !important;
+    color: white !important;
+}
+
+/* Standalone st.button (outside forms), if any are added later */
+div.stButton > button {
+    width: 100%;
+    background-color: #5b2a86 !important;
+    color: white !important;
+    font-weight: 600;
+    padding: 0.6rem 0;
+    border-radius: 8px;
+    border: none !important;
+    font-size: 1.05rem;
+}
+
+div.stButton > button:hover {
     background-color: #7b3fae !important;
     color: white !important;
 }
@@ -87,6 +100,17 @@ button[kind="secondaryFormSubmit"]:hover {
     font-size: 0.85rem;
     font-weight: 600;
     margin-top: 0.4rem;
+}
+
+/* Keep number input +/- steppers at their normal compact size —
+   don't let any button styling above affect them */
+div[data-testid="stNumberInputStepUp"],
+div[data-testid="stNumberInputStepDown"],
+button[data-testid="stNumberInputStepUp"],
+button[data-testid="stNumberInputStepDown"] {
+    width: auto !important;
+    min-width: 0 !important;
+    padding: 0.25rem 0.5rem !important;
 }
 
 .sc-footer {
