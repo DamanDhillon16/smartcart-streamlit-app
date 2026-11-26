@@ -2,7 +2,7 @@
 
 An unsupervised learning project that segments retail customers by income, spending and purchasing behaviour, using PCA for dimensionality reduction and K-Means and Agglomerative clustering. The results are shown in a Streamlit app.
 
-**Live app:** [CLICK-HERE](https://smartcart-app-app-dfejdjwfubjzz59hftsxtz.streamlit.app/)
+**Live app:** [LIVE-LINK](https://smartcart-app-app-dfejdjwfubjzz59hftsxtz.streamlit.app/)
 
 <img width="1133" height="689" alt="image" src="https://github.com/user-attachments/assets/566f5806-f101-438f-87c0-b11ce7975423" />
 <img width="1162" height="776" alt="image" src="https://github.com/user-attachments/assets/d7fc81f8-cdde-44be-8624-c119f7eaf84d" />
